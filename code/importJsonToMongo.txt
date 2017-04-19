@@ -1,0 +1,1 @@
+mongoimport --db fraude --collection annonces --jsonArray --file 2017-03-16T19-11-15_announcesIphone_scraped_items.json
