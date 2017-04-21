@@ -10,4 +10,4 @@ if __name__ == '__main__':
 	for i in range(0,5):
 		print(i)
 		res = pool.apply_async(f, (i,))
-		print ("result", res.get(timeout=10))
+		print ("result", res.get(timeout=1))
